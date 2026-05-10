@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siaoyao Jia</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <table id="main-table">
+        <tr>
+            <td>
+                <table class="sub-table">
+                    <tr>
+                        <td class="td-with-padding">
+                            <div class="info-container">
+                                <div class="info-text">
+                                    <p class="p-center" id="name">
+                                        <name>Siaoyao Jia</name>
+                                    </p>
+                                    <p class="p-center" id="email">
+                                        jiasiyao@sjtu.edu.cn
+                                    </p>
+        
+                                    <p class="p-center smallerFont">
+                                        <a href="mailto:jiasiyao@sjtu.edu.cn">Email</a>
+                                        &nbsp;|&nbsp;
+                                        <a href="https://github.com/lumiererere">GitHub</a>
+                                    </p>
+                                </div>
+                                <img src="imgs/self.jpg" id="self-photo" alt="Jianrong Ding's photo">
+                            </div>
+                            <br>
+                            <p>
+                                Hi, my name is 贾思垚 (Siaoyao Jia). I'm a Ph.D. student majot at Shanghai Jiao Tong University advised by Prof. Yuhang Zhang.
+                            </p>
+                            <p>
+                                Before that, I obtained my bachelor's degree in Bioscience from Shanghai Jiao Tong University in 2025.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <table class="sub-table">
+                    <tr>
+                        <td class="td-with-padding">
+                            <heading>Education</heading>
+                            <ul class="no-bullets">
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/sjtu.png" alt="SJTU Logo" class="logo">
+                                    <div class="item-content">
+                                        <p class="emphasis" style="margin-bottom: 8px; margin-top: 8px;">Shanghai Jiao Tong University</p>
+                                        <p style="margin-bottom: 8px; margin-top: 8px;">Ph.D. in Biology</p>
+                                        <p style="margin-bottom: 8px; margin-top: 8px;"><i>Sept. 2025 - present</i></p>
+                                    </div>
+                                </li>
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/sjtu.png" alt="SJTU Logo" class="logo">
+                                    <div class="item-content">
+                                        <p class="emphasis" style="margin-bottom: 8px; margin-top: 8px;">Shanghai Jiao Tong University</span>
+                                        <p style="margin-bottom: 8px; margin-top: 8px;">B.E. in Bioscience</p>
+                                        <p style="margin-bottom: 8px; margin-top: 8px;"><i>Sept. 2021 - June. 2025</i></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="td-with-padding">
+                            <heading>Experience</heading>
+                            <ol class="no-bullets">
+                                <li class="list-item-with-logo">
+                                    <img src="imgs/sjtu.png" alt="SJTU Logo" class="logo">
+                                    <div class="item-content">
+                                        <p class="emphasis" style="margin-bottom: 8px; margin-top: 8px;">Shanghai Jiao Tong University</p>
+                                        <p style="margin-bottom: 8px; margin-top: 8px;">Research Assistant advised by Prof. Wupeng Yan</p>
+                                        <p style="margin-bottom: 8px; margin-top: 8px;"><i>Oct. 2022 - June. 2024</i></p>
+                                    </div>
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+
+                     
+                    <tr>
+                        <td class="td-with-padding">
+                            <heading>Honors & Scholarships</heading>
+                            <ol class="no-bullets">
+                                <li class="li-margin">
+                                    Outstanding Graduate of Shanghai Jiao Tong University, 2025
+                                </li>
+                                <li class="li-margin">
+                                    B-Class Excellence Scholarship, 2024
+                                </li>
+                            </ol>
+                        </td>
+                    </tr>
+
+                    <tr>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+
+<p class="p-center smallerFont" id="lastEdited"></p>
+
+<script>
+    const lastModified = new Date(document.lastModified);
+    const options = { year: 'numeric', month: 'long' };
+    document.getElementById("lastEdited").textContent =
+        "Last updated: " + lastModified.toLocaleDateString("en-US", options);
+</script>
+
+</html>
